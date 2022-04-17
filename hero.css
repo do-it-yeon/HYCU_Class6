@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px
+    margin: 0;
+    line-height: 30px
+}
+
+header {
+    background-color: rgb(163, 252, 255);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+header img {
+    border-radius: 500px;
+    border: 15px solid rgb(40, 151, 230);
+}
+
+header h1 {
+    font-size: 50px;
+    color: rgb(255, 183, 58);
+}
+
+h1, h2 {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;   
+}
+
+main img {
+    max-width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(255, 183, 58);
+    margin: 40px 0 10px;
+}
+
+a {
+    color: cadetblue;
+}
+
+a:hover {
+    color: bisque;
+    background-color: chocolate;
+}
+
+footer {
+    background-color: rgb(163, 252, 255);
+    text-align: center;
+    color: rgb(255, 183, 58);
+    padding: 50px;
+}
+
+footer a {
+    color: rgb(255, 183, 58);
+}
+
+footer p {
+    margin: 0px;
+}
+
+footer a:hover {
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+p.caption {
+    color: cornflowerblue;
+    font-style: italic;
+    margin: 0;
+}
